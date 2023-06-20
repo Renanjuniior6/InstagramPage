@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+.image {
+    position: relative;
+}
+
+.cel {
+    width: 450px;
+}
+
+.insta-photo {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px 40px 20px 40px;
+}
+
+.container-form {
+    width: 350px;
+}
+
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: #262626;
+}
+
+button {
+    background: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0; 
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.password {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding: 20px 0;
+
+}
+
+.not-count {
+    font-size: 14px;
+}
+
+.link-sign-up {
+   color: #0095f6;
+   font-weight: bold;
+   font-size: 14px;
+   margin-left: 5px;
+   cursor: pointer;
+}
+
+.get-app {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-app {
+    width: 150px;
+}
+
